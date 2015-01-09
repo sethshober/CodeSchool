@@ -1,0 +1,14 @@
+{
+  "name": "commander",
+  "version": "0.0.1",
+  "description": "command line weather tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.6.0"
+  }
+}
