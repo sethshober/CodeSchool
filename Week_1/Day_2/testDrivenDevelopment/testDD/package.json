@@ -1,0 +1,21 @@
+{
+  "name": "jsi-gravity",
+  "version": "0.1.0",
+  "description": "Gravity challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "`npm bin`/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wbyoung/jsi-gravity.git"
+  },
+  "author": "Whitney Young",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.1",
+    "jshint": "^2.4.4",
+    "chai": "^1.9.1"
+  },
+  "dependencies": {}
+}
