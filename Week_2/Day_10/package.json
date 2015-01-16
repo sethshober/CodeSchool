@@ -1,0 +1,14 @@
+{
+  "name": "arrayTransform",
+  "version": "0.0.1",
+  "description": "iterate over array to return new array of values matching typeof parameter",
+  "main": "interpolate.js",
+  "scripts": {
+    "test": "`npm bin`/jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  	"jasmine": "^2.1"
+  }
+}
