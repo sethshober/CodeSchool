@@ -1,0 +1,21 @@
+doctype html(lang='en')
+head
+    meta(charset='utf-8')
+    title= title
+    meta(name='description', content='A nice login form')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/login.css')
+body
+    form#slick-login(method='post', action='/login')
+      h2#title Sign Up
+      label(for='name') name
+      input.placeholder(type='text', name='name', placeholder='Your Name' required='')
+      label(for='email') email
+      input.placeholder(type='email', name='email', placeholder='Email', required='')
+      label(for='password') password
+      input.placeholder(type='password', name='password', placeholder='Password', required='')
+      input(type='submit', value='Log In')
+    // for placeholder fallback
+    script(type='text/javascript', src='http://code.jquery.com/jquery-latest.min.js')
+    script(src='http://www.modernizr.com/downloads/modernizr-latest.js')
+    script(src='/javascripts/app/placeholder.js')
+
