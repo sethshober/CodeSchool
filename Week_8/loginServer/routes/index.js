@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   if (!req.cookies["youAreLoggedIn"]) {
   	res.redirect('/login');
   }	else {
-  	res.render('index', {title: 'Just Because Login'});
+  	res.render('index', {title: 'Why Am I Here?'});
   }	
 });
 

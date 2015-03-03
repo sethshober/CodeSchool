@@ -1,11 +1,15 @@
-doctype html
-html
-  head
-    title= title
-    | &#x9;
-    style(type='text/css').
-      h1 {
-      text-align: center;
-      }
-  body
-    h1 You have logged in to nothing :)
+doctype html(lang='en')
+head
+  meta(charset='utf-8')
+  title= title
+  style(type='text/css').
+    h1 {
+    text-align: center;
+    }
+    a {
+    display: block;
+    text-align: center;
+    }
+body
+  h1 You have logged in to nothing :)
+  a(href='/logout') Ugh, get me out of here!
