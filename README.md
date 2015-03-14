@@ -1,1 +1,1 @@
-# Portland Code School JavaScript Immersion
+# A place for trial and error.
